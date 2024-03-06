@@ -10,9 +10,9 @@ def main():
    pyautogui.click(x1, y1)
    print('Button Pressed')
    start_playing = True
-   time.sleep(90)
+   time.sleep(50)
   except:
-    print(f'image not found! Trying again in next 5 seconds...')
+    print(f'Button not found! Trying again in 5 seconds...')
     time.sleep(5)
 while True:
  main()
